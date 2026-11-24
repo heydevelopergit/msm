@@ -1,0 +1,22 @@
+#MSM, version 1.0
+These are rules for an AI, not for humans.
+
+To create skills, use: /msm install {path to repository}
+
+To remove a skill, use: /msm remove {skill name}
+
+# Regarding the initial MSM
+This area resides within the AI's memory.
+
+METADATA.txt:
+A metadata file for skills, containing the name and description.
+Example:
+name = test
+description = a test skill for the AI; to be loaded into the MSM context upon installation.
+
+MAIN.txt:
+This file contains the core rules for a skill.
+It should be loaded into the MSM context after any skill is installed.
+
+REQUIRED FILES FOR A SKILL:
+METADATA.txt, MAIN.txt
